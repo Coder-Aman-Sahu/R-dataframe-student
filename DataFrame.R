@@ -27,6 +27,7 @@ CGPA=c(8.7,9.2,9.5,8.1,8.4)
 Gender=c('M','F','M','F','M')
 Student=data.frame(Roll,Name,CGPA,Gender)
 Student
+Student$Name=c("Chandler","Rachel","Ross","Monica","Joey")
 #i.Print the first two rows
 Student[1:2,]
 #ii.Find the mean of the CGPA Column/attribute/feature
